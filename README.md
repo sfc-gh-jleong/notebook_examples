@@ -9,6 +9,7 @@ This repository contains example Jupyter notebooks demonstrating various Snowfla
 | [Great_Expectations_Demo.ipynb](Great_Expectations_Demo.ipynb) | Data quality validation using Great Expectations with Snowflake |
 | [langchain_artifact_demo.ipynb](langchain_artifact_demo.ipynb) | Using external PyPI packages (LangChain) with Snowflake Container Runtime |
 | [Snowflake_Optima_Tutorial.ipynb](Snowflake_Optima_Tutorial.ipynb) | Automatic query optimization with Snowflake Optima |
+| [Git_Integration_Setup.ipynb](Git_Integration_Setup.ipynb) | Step-by-step guide to set up Git integration in Snowflake |
 
 ### Great Expectations Demo
 
@@ -37,6 +38,16 @@ Explains **Snowflake Optima** - an intelligent, automatic query optimization fea
 - Understanding Search Optimization Service integration
 - Identifying optimization opportunities in your queries
 - No additional cost with Gen2 warehouses
+
+### Git Integration Setup
+
+Step-by-step guide to create a **Git integration** in Snowflake for syncing files from remote repositories:
+- Creating secrets for authentication (PAT)
+- Setting up API integrations
+- Creating and fetching Git repositories
+- Browsing branches, tags, and files
+
+**Prerequisites:** ACCOUNTADMIN role, Git repository URL, Personal Access Token (if required)
 
 ## Requirements
 
